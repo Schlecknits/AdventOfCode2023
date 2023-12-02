@@ -142,10 +142,9 @@ int part_two(char* filename){
 
 int main(void){
     char *filename = "day1.txt";
-    
-
     int choosen_assignment = 0;
     int sum = 0;
+
     printf("Choose Assignment: ");
     if(!scanf("%d", &choosen_assignment)){
         printf("ERROR: No valid Input provided.\n");
@@ -161,9 +160,7 @@ int main(void){
         printf("ERROR: No valid Input provided.\n");
     }
     
-    
     printf("The sum of all calibration values is %d.\n", sum);
-
     
     return EXIT_SUCCESS;
 }
